@@ -2,7 +2,7 @@
 ### A Quantitative Framework for Strategic TPU/GPU Resource Prioritization
 
 ## Executive Summary
-As organizations transitions into an "AI-native enterprise," internal infrastructure demand (e.g., Gemini-powered Search, Workspace, and YouTube) is scaling exponentially. However, compute hardware is a finite, supply-constrained resource. Every unit of Tensor Processing Unit (TPU) capacity allocated to internal consumer testing represents a direct opportunity cost: high-margin, predictable B2B enterprise revenue on Google Cloud (Vertex AI).
+As organizations transition into an "AI-native enterprise," internal infrastructure demand (e.g., Gemini-powered Search, Workspace, and YouTube) is scaling exponentially. However, compute hardware is a finite, supply-constrained resource. Every unit of Tensor Processing Unit (TPU) capacity allocated to internal consumer testing represents a direct opportunity cost: high-margin, predictable B2B enterprise revenue on Google Cloud (Vertex AI).
 
 This repository contains a lightweight, modular python simulation designed to model and optimize the **Marginal Revenue Product of Compute (MRPC)**. The simulation explores an internal shadow-pricing mechanism and calculates **Compute-Adjusted Margin (CAM)** to resolve resource allocation bottlenecks dynamically.
 
